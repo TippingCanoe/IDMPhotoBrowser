@@ -1,3 +1,4 @@
+source 'https://github.com/TippingCanoe/Specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 # ignoring warning from pods
@@ -5,7 +6,7 @@ inhibit_all_warnings!
 
 target "PhotoBrowserDemo" do
 
-pod 'AFNetworking'
+pod 'SDWebImage', '~> 3.0'
 pod 'DACircularProgress'
 pod 'pop'
 

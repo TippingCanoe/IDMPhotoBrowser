@@ -1,0 +1,18 @@
+PODS:
+  - DACircularProgress (2.2.0)
+  - pop (1.0.7)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.2)
+
+DEPENDENCIES:
+  - DACircularProgress
+  - pop
+  - SDWebImage (~> 3.0)
+
+SPEC CHECKSUMS:
+  DACircularProgress: 0f92b77239d5f3c612fc66185e2998391ac8e054
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+
+COCOAPODS: 0.34.4

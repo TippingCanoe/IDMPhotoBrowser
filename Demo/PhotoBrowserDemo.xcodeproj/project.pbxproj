@@ -22,9 +22,8 @@
 		4C6F97D814AF760500F8389A /* photo3m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F97D014AF760500F8389A /* photo3m.jpg */; };
 		4C6F97D914AF760500F8389A /* photo4l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F97D114AF760500F8389A /* photo4l.jpg */; };
 		4C6F97DA14AF760500F8389A /* photo4m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F97D214AF760500F8389A /* photo4m.jpg */; };
-		727988B1187B3B5400966C66 /* IDMPBLocalizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 727988B0187B3B5400966C66 /* IDMPBLocalizations.bundle */; };
-		727988B7187B3CF100966C66 /* IDMPhotoBrowser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 727988B6187B3CF100966C66 /* IDMPhotoBrowser.podspec */; };
 		BDDE863029564DCEAF3437FF /* libPods-PhotoBrowserDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F398EC6BD549F7A2FDC451 /* libPods-PhotoBrowserDemo.a */; };
+		C00A9ED31AD331D800E5C432 /* IDMPhotoBrowserTC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C00A9ED21AD331D800E5C432 /* IDMPhotoBrowserTC.podspec */; };
 		D114BB411A32269C00E677FE /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D114BB401A32269C00E677FE /* Launch Screen.xib */; };
 		D1574968178DB94900B0211A /* IDMCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D157494F178DB94900B0211A /* IDMCaptionView.m */; };
 		D1574969178DB94900B0211A /* IDMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = D1574951178DB94900B0211A /* IDMPhoto.m */; };
@@ -81,6 +80,7 @@
 		727988B6187B3CF100966C66 /* IDMPhotoBrowser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IDMPhotoBrowser.podspec; path = ../../IDMPhotoBrowser.podspec; sourceTree = "<group>"; };
 		927DCB0B321DDC6CFC895FF5 /* Pods-PhotoBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBrowserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBrowserDemo/Pods-PhotoBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A539B17F628FB7F9581056C4 /* Pods-PhotoBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBrowserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBrowserDemo/Pods-PhotoBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C00A9ED21AD331D800E5C432 /* IDMPhotoBrowserTC.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = IDMPhotoBrowserTC.podspec; path = ../IDMPhotoBrowserTC.podspec; sourceTree = "<group>"; };
 		D11464B61802FFC4005B7BC3 /* IDMPBConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDMPBConstants.h; sourceTree = "<group>"; };
 		D114BB401A32269C00E677FE /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		D157494E178DB94900B0211A /* IDMCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMCaptionView.h; sourceTree = "<group>"; };
@@ -145,6 +145,7 @@
 		4C6F978214AF734800F8389A = {
 			isa = PBXGroup;
 			children = (
+				C00A9ED21AD331D800E5C432 /* IDMPhotoBrowserTC.podspec */,
 				D1574931178DB94900B0211A /* Classes */,
 				4C6F979714AF734900F8389A /* PhotoBrowserDemo */,
 				4C6F97CA14AF75D300F8389A /* Photos */,
@@ -346,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C00A9ED31AD331D800E5C432 /* IDMPhotoBrowserTC.podspec in Resources */,
 				4C6F97D314AF760500F8389A /* photo1l.jpg in Resources */,
 				D17F79ED1AB7C29600A65B37 /* Images.xcassets in Resources */,
 				4C6F97D414AF760500F8389A /* photo1m.jpg in Resources */,
@@ -366,9 +368,7 @@
 				D19D826417E8D40700A5859E /* IDMPhotoBrowser_customArrowRight.png in Resources */,
 				D19D826517E8D40700A5859E /* IDMPhotoBrowser_customArrowRight@2x.png in Resources */,
 				D19D826617E8D40700A5859E /* IDMPhotoBrowser_customArrowRightSelected.png in Resources */,
-				727988B1187B3B5400966C66 /* IDMPBLocalizations.bundle in Resources */,
 				D19D826717E8D40700A5859E /* IDMPhotoBrowser_customArrowRightSelected@2x.png in Resources */,
-				727988B7187B3CF100966C66 /* IDMPhotoBrowser.podspec in Resources */,
 				D19D826817E8D40700A5859E /* IDMPhotoBrowser_customDoneButton.png in Resources */,
 				D19D826917E8D40700A5859E /* IDMPhotoBrowser_customDoneButton@2x.png in Resources */,
 			);
